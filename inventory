@@ -1,4 +1,14 @@
-192.168.0.101
+[groupa]
+192.168.0.[101:103]
+
+[groupb]
+server4
+server5
+
+[groupc]
 192.168.0.103
+192.168.0.101
 
-
+[groupd:children]
+groupb
+groupc
