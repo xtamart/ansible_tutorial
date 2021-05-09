@@ -1,13 +1,13 @@
 [groupa]
-192.168.0.[101:103]
+192.168.0.[102:103]
 
 [groupb]
 server4
 server5
 
 [groupc]
+192.168.0.102
 192.168.0.103
-192.168.0.101
 
 [groupd:children]
 groupb
