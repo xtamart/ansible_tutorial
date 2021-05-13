@@ -4,7 +4,15 @@
   become: true
   tasks:
 
-  - name: remove apache2 package
+  - name: remove httpd  package
     dnf:
       name: httpd
       state: absent
+    when: ansible_distribution == "CentOS"
+
+  - name: remove apache2 package
+    apt:
+      name: apache2
+      state: absent
+    when: ansible_distribution == "Ubuntu"
+
