@@ -1,4 +1,4 @@
-192.168.0.102 apache_package=httpd php_package=php
-192.168.0.103 apache_package=httpd php_package=php
-192.168.0.106 apache_package=apache2 php_package=libapache2-mod-php
+ubuntu1 apache=apache2 phps=libapache2-mod-php 
+server4 apache=httpd phps=php
+server5 apache=httpd phps=php
 
